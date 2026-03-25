@@ -38,7 +38,7 @@ Python, PyTorch, Hugging Face Transformers, BERT/DistilBERT, BiLSTM, BiLSTM+Atte
 - Оценка: compute_metrics с sklearn
 
 # Используемые данные
-CoNLL-2003 English NER (~20k предложений, 9 классов)
+CoNLL-2003 English NER (9 классов: O, B-/I-PER/LOC/MISC/ORG)
 
 # Результаты и выводы
 Реализованы три архитектуры с полной оценкой метрик. Трансформеры демонстрируют превосходство над RNN. BiLSTM+Attention дает прирост над vanilla BiLSTM.
